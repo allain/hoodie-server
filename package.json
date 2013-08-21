@@ -40,6 +40,8 @@
         "node": ">=0.8.x"
     },
     "devDependencies": {
-        "mocha": "*"
+        "mocha": "*",
+        "sinon": "*",
+        "expect.js": "*"
     }
 }

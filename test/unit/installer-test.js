@@ -24,11 +24,11 @@ describe('installer', function () {
   });
 
   it('should have a setupModules property', function () {
-    expect(installer).to.have.property('setupModules');
+    expect(installer).to.have.property('setupPlugins');
   });
 
   it('should have a createModulesDB property', function () {
-    expect(installer).to.have.property('createModulesDB');
+    expect(installer).to.have.property('createDB');
   });
 
   it('should have a createAppConfig property', function () {
