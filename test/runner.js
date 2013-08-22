@@ -13,3 +13,4 @@ require('./unit/nodejitsu_server-test');
 require('./unit/server-test');
 require('./unit/utils-test');
 require('./unit/workers-test');
+require('./unit/plugins-test');
