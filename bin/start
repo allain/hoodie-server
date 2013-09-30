@@ -17,6 +17,7 @@ var argv = require('optimist')
   .describe('help', 'Show usage information')
   .describe('local-tld', 'Turn on local-tld on supported platforms')
   .describe('no-local-tld', 'Turn off local-tld on supported platforms')
+  .describe('allow-sudo', 'Allow hoodie to be run in sudo')
   .usage('Usage: start [options]')
   .argv;
 
